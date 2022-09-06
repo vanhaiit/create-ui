@@ -3,12 +3,15 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App ">
+      <header className="App-header !bg-[blue]">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <h1 class="text-3xl font-bold underline text-[blue]">
+          Hello world!
+        </h1>
         <a
           className="App-link"
           href="https://reactjs.org"
