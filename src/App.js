@@ -1,11 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Drawer from './Drawer';
-
+// import Drawer from './Drawer';
+import Service from './component/Service';
+import CardItem from './component/CardItem';
 function App() {
   return (
     <div className="App ">
-      <Drawer/>
+      {/* <Drawer/> */}
+      <Service/>
+      <CardItem/>
     </div>
   );
 }
