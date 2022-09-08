@@ -1,14 +1,18 @@
 import React from 'react';
 
 // component
-import Menu from "../header/Menu";
+import Menu from "./Menu";
+import Drawer from "./Drawer";
 import GeneralInformation from "./GeneralInformation";
 
 function Header() {
+    const [isOpen, setIsOpen] = React.useState(false);
+
     return(
        <React.Fragment>
-	       <GeneralInformation />
+	       <GeneralInformation setIsOpen={setIsOpen} />
 	       <Menu />
+           <Drawer isOpen={isOpen} setIsOpen={setIsOpen} />
        </React.Fragment>
     );
 }

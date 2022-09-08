@@ -199,7 +199,7 @@ function Menu() {
 		},
 	];
     return(
-	    <div className="flex flex-row items-center justify-between bg-zinc-800 py-4 px-6 sticky top-0 left-0 right-0">
+	    <div className="flex flex-row items-center justify-between bg-zinc-800 sticky py-5 px-10 top-0 left-0 right-0">
 		    <a href="+">
 			    <img
 				    src={logo}
