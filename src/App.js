@@ -5,7 +5,7 @@ import Header from "./component/header";
 
 function App() {
 	return (
-		<div className="App bg-red-200 h-screen">
+		<div className="App h-screen">
 		    <Header />
 		</div>
 	);

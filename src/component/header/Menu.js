@@ -199,12 +199,12 @@ function Menu() {
 		},
 	];
     return(
-	    <div className="flex flex-row items-center justify-between bg-green-500 py-4 px-6 sticky top-0 left-0 right-0">
+	    <div className="flex flex-row items-center justify-between bg-zinc-800 py-4 px-6 sticky top-0 left-0 right-0">
 		    <a href="+">
 			    <img
-				    src="https://img.cdn.vncdn.io/nvn/ncdn/store/2071/store_1607570776_234.png"
+				    src={logo}
 				    alt="Logo"
-				    className="h-12 min-h-[23px] max-h-[45px] w-full"
+				    className="h-10 min-h-[23px] max-h-[50px] w-full"
 			    />
 		    </a>
 

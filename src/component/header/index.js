@@ -1,7 +1,7 @@
 import React from 'react';
 
 // component
-import Menu from "./Menu";
+import Menu from "../header/Menu";
 import GeneralInformation from "./GeneralInformation";
 
 function Header() {
